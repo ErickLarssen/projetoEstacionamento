@@ -9,8 +9,12 @@
 <HTML lang="PT-BR">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/estilo.css">
     </head>
     <body>
+        <header>
+            <img src="imagens/logo_estacionamento.png" class="logo_img" width="350px" alt="logo da Elarssen estacionamento">
+        </header>
         <form method="POST">
             <label>Código de Funcionário</label>
             <input type="number" id="codigo" name="codigo"/><br><br>

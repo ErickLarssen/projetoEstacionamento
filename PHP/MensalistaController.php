@@ -9,8 +9,12 @@
     <HTML lang="PT-BR">
         <head>
             <meta charset="UTF-8">
+            <link rel="stylesheet" href="css/estilo.css">
         </head>
         <body>
+        <header>
+            <img src="imagens/logo_estacionamento.png" class="logo_img" width="350px" alt="logo da Elarssen estacionamento">
+        </header>
             <form method="POST">
                 <label>Nome</label>
                 <input type="text" id="nome" name="nome"/><br><br>
