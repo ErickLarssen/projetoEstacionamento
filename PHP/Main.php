@@ -1,6 +1,6 @@
 <?php
   namespace Projeto\ProjetoEstacionamento\PHP;
-    //Cololar qual classe eu utilizar
+    //Colocar qual classe eu utilizar
     require_once("Funcionario.php");
     require_once("Mensalista.php");
     require_once("Controle.php");

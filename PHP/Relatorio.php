@@ -7,7 +7,7 @@
     require_once("Controle.php");
     use Projeto\ProjetoEstacionamento\PHP\Relatorio;
     use Projeto\ProjetoEstacionamento\PHP\Funcionario;
-    use Projeto\ProjetoEstacionamento\PHP\Mensal;
+    use Projeto\ProjetoEstacionamento\PHP\Mensalista;
     use Projeto\ProjetoEstacionamento\PHP\Controle;
  
     class Relatorio{
@@ -22,7 +22,7 @@
     }
  
     function gerarRelatorioMensalista(){
-    $mensalista1 = new Mensal("Maurício", "1195859-5993", "Rua das Nações Unidas 41", "Fiat UNO", "BRA2E21", "Prata", "05/03", 300);
+    $mensalista1 = new Mensalista("Maurício", "1195859-5993", "Rua das Nações Unidas 41", "Fiat UNO", "BRA2E21", "Prata", "05/03", 300);
     return $mensalista1->imprimir()."<br>";
     }
    
